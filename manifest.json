@@ -1,0 +1,23 @@
+{
+	"name": "Color Picker By - Govind Shrimali",
+	"description": "This Color Picker Extension detect your selected color and also copy color value in your clipboard",
+	"version": "1.0",
+	"manifest_version":3,
+	"background":{
+		"service_worker":"background.js"
+	},
+	"action":{
+		"default_popup":"colorpicker.html"
+	},
+	"icons":{
+		"16":"picker16.png",
+		"48":"picker48.png",
+		"64":"picker64.png",
+		"128":"picker128.png"
+
+	},
+	"permissions":[
+		"activeTab",
+		"scripting"
+	]
+}
